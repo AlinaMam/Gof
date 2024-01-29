@@ -1,0 +1,10 @@
+package Gof_structer.bridge.example_from_internet;
+
+public abstract class Program {
+    protected Developer developer;
+
+    protected Program(Developer developer) {
+        this.developer = developer;
+    }
+    public abstract void developProgram();
+}
